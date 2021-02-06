@@ -1,4 +1,3 @@
-
 # 1.İrisi veri setinin yüklenmesi
 from sklearn.datasets import load_iris
 iris_dataset = load_iris()
@@ -40,23 +39,3 @@ print(dogruluk)
 
 import numpy as np
 print(np.mean(dogruluk == y_test) * 100)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
